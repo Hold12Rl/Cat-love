@@ -1,25 +1,21 @@
 Create.new "Folder"
-
 Folder.Replicatedstorage
 
-Folder.name "Maps"
+ Folder.name "Maps"
 
-Create.new "Folder"
-
+ Create.new "Folder"
 Folder.Replicatedstorage.map.Older
 
-Folder.name "Older"
+ Folder.name "Older"
 
-Create.new "Map"
-
+ Create.new "Map"
 Folder.Replicatedstorage.map.Older
 
-Folder.name "Map"
+ Folder.name "Map"
 
 -- Already Done? No
 
-Workspace.Map
-
+ Workspace.Map
 Map:MoveTo(ReplicatedStorage.map.Older)
 
 -- Done :)
